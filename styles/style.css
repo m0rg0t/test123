@@ -1,3 +1,4 @@
+
 .page {
   color: var(--text-color, #F1B2CE);
   font-family: var(--main-font, sans-serif);
@@ -305,7 +306,6 @@
 }
 
 .footer__title { 
-  
   margin: auto;
   color: var(--title-color, #DB00FF);
   font-weight: 700;
