@@ -305,6 +305,7 @@
 }
 
 .footer__title { 
+  
   margin: auto;
   color: var(--title-color, #DB00FF);
   font-weight: 700;
