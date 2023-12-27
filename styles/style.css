@@ -303,7 +303,7 @@
       padding: 20px;
       min-block-size: 100vh;
     }
-    
+
     .footer__title { 
       margin: auto;
       color: var(--title-color, #DB00FF);
