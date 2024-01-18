@@ -28,7 +28,6 @@
 
 
 @media (prefers-color-scheme: dark) {
-  
   :root {
     --title-color: #DB00FF;
     --text-color: #F1B2CE;
