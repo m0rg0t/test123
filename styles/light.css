@@ -8,6 +8,7 @@
   --outline-color: rgba(50, 49, 45, 0.40);
   --link-color: #353430;
   --link-shadow: #FF8DCB;
+  --box-shadow-color: #FF8DCB;
   --bg-image: url(../images/cover-image-light.png);
 }
 
@@ -15,12 +16,10 @@
 
   @media (width < 1024px) {
     .title {
-      --box-shadow-color: #FF8DCB;
       text-shadow: 4px 4px 0px var(--box-shadow-color, #FF8DCB);
     }
 
     .footer__title {
-      --box-shadow-color: #FF8DCB;
       text-shadow: 2px 2px 0px var(--box-shadow-color, #FF8DCB);
     }
   }
