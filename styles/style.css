@@ -25,15 +25,6 @@
   grid-row: 1/2;
 }
 
-.header__theme-menu-button_active {
-  pointer-events: none;
-}
-
-.header__theme-menu-button:hover,
-.header__theme-menu-list .header__theme-menu-item:last-of-type .header__theme-menu-button:hover {
-  outline: 1px solid var(--outline-color, rgba(255, 0, 112, 0.40));
-}
-
 .header__theme-menu-list {
   display: flex;
   justify-content: center;
@@ -54,8 +45,34 @@
   font-size: 18px;
 }
 
-.header__theme-menu-list .header__theme-menu-item:last-of-type .header__theme-menu-button {
+
+
+
+
+
+.header__theme-menu-button_active {
+  pointer-events: none;
+}
+
+.header__theme-menu-button_active {
   outline: 1px solid var(--accent-color, #FF0070);
+}
+
+/* .header__theme-menu-list .header__theme-menu-item:last-of-type .header__theme-menu-button {
+  outline: 1px solid var(--accent-color, #FF0070);
+} */
+
+.header__theme-menu-button:not(.header__theme-menu-button_active) {
+  outline: none;
+}
+
+
+
+
+
+.header__theme-menu-button:hover,
+.header__theme-menu-list .header__theme-menu-item:last-of-type .header__theme-menu-button:hover {
+  outline: 1px solid var(--outline-color, rgba(255, 0, 112, 0.40));
 }
 
 .header__theme-menu-button:focus-visible {
@@ -88,9 +105,6 @@
   grid-row: 3/4;
   align-self: center;
 }
-
-
-
 
 .header__rec {
   position: absolute;
@@ -128,10 +142,6 @@
   inset-block-start: 20px;
   inset-inline-end: 20px;
 }
-
-
-
-
 
 .header::after {
   content: "";
