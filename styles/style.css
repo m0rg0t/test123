@@ -45,30 +45,14 @@
   font-size: 18px;
 }
 
-
-
-
-
-
 .header__theme-menu-button_active {
   pointer-events: none;
-}
-
-.header__theme-menu-button_active {
   outline: 1px solid var(--accent-color, #FF0070);
 }
-
-/* .header__theme-menu-list .header__theme-menu-item:last-of-type .header__theme-menu-button {
-  outline: 1px solid var(--accent-color, #FF0070);
-} */
 
 .header__theme-menu-button:not(.header__theme-menu-button_active) {
   outline: none;
 }
-
-
-
-
 
 .header__theme-menu-button:hover,
 .header__theme-menu-list .header__theme-menu-item:last-of-type .header__theme-menu-button:hover {
