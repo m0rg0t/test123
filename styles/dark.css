@@ -1,6 +1,7 @@
 :root .theme_dark {
   --title-color: #DB00FF;
   --text-color: #F1B2CE;
+  --bg-color: #000028;
   --subtitle-color: #000028;
   --accent-color: #FF0070;
   --accent-color-bg: #FF0070;
@@ -14,6 +15,7 @@
 .page.theme_dark {
   --title-color: #DB00FF;
   --text-color: #F1B2CE;
+  --bg-color: #000028;
   --subtitle-color: #000028;
   --accent-color: #FF0070;
   --accent-color-bg: #FF0070;
@@ -30,6 +32,7 @@
   :root {
     --title-color: #DB00FF;
     --text-color: #F1B2CE;
+    --bg-color: #000028;
     --subtitle-color: #000028;
     --accent-color: #FF0070;
     --accent-color-bg: #FF0070;

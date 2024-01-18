@@ -89,6 +89,9 @@
   align-self: center;
 }
 
+
+
+
 .header__rec {
   position: absolute;
   display: flex;
@@ -96,25 +99,39 @@
   color: var(--accent-color, #FF0070);
   font-size: 18px;
   line-height: 25px;
-  text-transform: uppercase;
   inset-block-start: 0;
   inset-inline-end: 0;
 }
 
+.header__rec::before {
+  content: "REC";
+  margin-inline-end: 10px;
+}
+
 .header__rec::after {
-  content: "•";
-  display: inline-block;
-  margin-inline-start: 5px;
+  content: "";
+  border-radius: 50%;
+  width: 9px;
+  height: 9px;
+  background-color: var(--accent-color, #FF0070);
+  margin-inline-end: 10px;
+  box-shadow: 0 0 5px 3px #FF0070;
+}
+
+.header::before {
+  content: "";
+  position: absolute;
   border-inline-end: 1px solid var(--accent-color, #FF0070);
   border-block-start: 1px solid var(--accent-color, #FF0070);
-  color: var(--accent-color, #FF0070);
-  font-size: 30px;
-  line-height: 22px;
-  text-align: start;
-  text-shadow: 0 0 4px var(--box-shadow-color, #FF0070);
   inline-size: 25px;
   block-size: 25px;
+  inset-block-start: 20px;
+  inset-inline-end: 20px;
 }
+
+
+
+
 
 .header::after {
   content: "";
